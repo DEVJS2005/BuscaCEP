@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscaCEP", "BuscaCEP.csproj", "{3C416CB9-1140-4DDE-AA10-88F845FF738F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C416CB9-1140-4DDE-AA10-88F845FF738F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C416CB9-1140-4DDE-AA10-88F845FF738F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C416CB9-1140-4DDE-AA10-88F845FF738F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C416CB9-1140-4DDE-AA10-88F845FF738F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3D2E565-FF43-4DCC-9453-DA60F023520D}
+	EndGlobalSection
+EndGlobal
