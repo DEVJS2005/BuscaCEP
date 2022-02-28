@@ -3,6 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <ApplicationIcon>marketing-de-busca.ico</ApplicationIcon>
+    <RootNamespace>Busca CEP</RootNamespace>
+    <Authors>JS</Authors>
+    <Company>JSinformatica</Company>
+    <Description>App de console usado para buscar CEP usando uma API gratuita.</Description>
+    <NeutralLanguage>pt-BR</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
