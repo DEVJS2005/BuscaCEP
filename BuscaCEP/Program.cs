@@ -18,14 +18,14 @@ namespace BuscaCEP
 
                 try
                 {
-                    var cepCliente = RestService.For<IbuscaCepInterfaceAPI>(apiURL);
+                    var cepCliente = RestService.For<IBuscaCepInterfaceAPI>(apiURL);
                     Console.WriteLine("");
                     Console.WriteLine("Informe o CEP desejado:");
                     string cepInformado = Console.ReadLine();
 
                     Console.WriteLine("Consultando informações do cep " + cepInformado);
 
-                    var address = await cepCliente.getEnderecoAsync(cepInformado);
+                    var address = await cepCliente.GetenderecoAsync(cepInformado);
                     Console.Clear();
 
                     Console.WriteLine("Informações do CEP:{0}", address.Cep);
@@ -38,7 +38,7 @@ namespace BuscaCEP
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Erro na consulta." + e.Message);
+                    Console.WriteLine("Erro na consulta. " + e.Message);
                 }
                 Console.WriteLine("Deseja consultar informações de outro cep?(y/n)");
                 string resposta = Console.ReadLine();
